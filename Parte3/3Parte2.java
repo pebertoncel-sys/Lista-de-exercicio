@@ -1,0 +1,24 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    double F;
+
+		System.out.println("Digite a temperatura em C°: ");
+		double C = scanner.nextDouble();
+
+		F = (C*(9/5))+32;
+		
+		System.out.println("O valor da temperatura eh: " + F);
+		
+	}
+}
